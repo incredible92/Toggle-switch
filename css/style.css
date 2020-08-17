@@ -1,0 +1,67 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  background-color: #297fb9;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  background-color: white;
+  border: 5px solid white;
+  margin: 0 auto;
+  width: 25vw;
+  height: fit-content;
+  margin-top: 5rem;
+  border-radius: 7px;
+}
+
+.form {
+  position: relative;
+}
+
+/* .box {
+  border: 2px solid lightgray;
+  outline: none;
+  width: 8vw;
+  height: 8vh;
+  margin-top: 1.5rem;
+  margin-left: 6rem;
+  border-radius: 25px;
+} */
+
+/* .button {
+  position: absolute;
+  padding: 1rem;
+  border-radius: 50%;
+} */
+
+.box-1 {
+  /* border: 2px solid lightgray; */
+  outline: none;
+  width: 8vw;
+  height: 8vh;
+  margin: 1.5rem auto 2.5rem;
+  display: flex;
+  border-radius: 26px;
+  background-color: lightgray;
+}
+
+.box-2 {
+  padding: 1rem;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  outline: none;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+
+.green {
+  background-color: green;
+  justify-content: flex-end;
+  -webkit-transition: 8s;
+  transition: 8s;
+}
